@@ -1,0 +1,87 @@
+body {
+    background-color: #7900fb;
+    font-family: Arial, sans-serif;
+  }
+  
+  #chat-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #56cfbf;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #chat-box {
+    
+    overflow-y: scroll;
+    
+    background-color: #00ff00;
+    color: #ff0000;
+  }
+  
+  .user-message {
+    background-color: #f0f0f0;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+  }
+  
+  .bot-message {
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+  }
+  
+  .error-message {
+    color: #ff0000;
+  }
+  
+  /* Page Title Styling */
+  h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-top: 20px;
+    cursor: pointer;
+    background-image: linear-gradient(to right, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #8a2be2);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    transition: transform 0.3s ease, filter 0.3s ease;
+  }
+  
+  h1:hover {
+    transform: scale(1.05); /* Add a pulsating effect on hover */
+    filter: hue-rotate(180deg); /* Rotate colors on hover */
+  }
+  #user-input {
+    width: calc(100% - 70px); /* Adjust width to fit container with send button */
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  #user-input:focus {
+    outline: none; /* Remove default focus outline */
+    border-color: #007bff; /* Change border color on focus */
+  }
+  #butt {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #eeff02;
+    color: #ffaa20;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #butt:hover {
+    background-color: #01ff6f; /* Darker shade on hover */
+  }
+  
